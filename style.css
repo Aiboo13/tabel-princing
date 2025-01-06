@@ -75,10 +75,11 @@ html{
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
 	/* untuk memberikan lengkungan pada pojok */
-
+	display: flex;
+	flex-direction: column;
 	padding: 15px 25px;
 	width: 100%;
-	max-width: 960px;
+	max-width: 1600px;
 	/* untuk menatur max lebar */
 }
 
@@ -130,6 +131,7 @@ html{
 .pricing-button:focus{
 	background-color: #5DA7FE;
 	color: white;
+}
 
 
 .pricing-button.is-future:hover,
@@ -148,4 +150,23 @@ html{
 	font-size: 32px;
 	font-weight: 700;
 }
+.pricing-plan{
+	border-right: 1px solid blue;
+}
+.pricing-plan:last-child{
+	/* spasi snagat berpengaruh pada last child */
+	border-right: none;
+}
 
+@media (min-width: 1544px) {
+	.panel{
+		flex-direction: row;
+	}
+	.pricing-plan{
+		border-right: 1px solid blue;
+	}
+	.pricing-plan:last-child{
+		/* spasi snagat berpengaruh pada last child */
+		border-right: none;
+	}
+}
