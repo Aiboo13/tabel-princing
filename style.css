@@ -34,6 +34,11 @@ body {
 ol, ul {
 	list-style: none;
 }
+li{
+	list-style-type: none;
+	text-decoration: none;
+	/* menhilangkan titik pada list */
+}
 blockquote, q {
 	quotes: none;
 }
@@ -52,6 +57,9 @@ body{
 	display: flex;
 	justify-content: center;
 	min-height: 100vh;
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 html{
@@ -66,10 +74,33 @@ html{
 	-moz-border-radius: 10px;
 	-ms-border-radius: 10px;
 	-o-border-radius: 10px;
-	/* untuk memberikanlengkungan pada pojok */
+	/* untuk memberikan lengkungan pada pojok */
 
 	padding: 15px 25px;
 	width: 100%;
 	max-width: 960px;
 	/* untuk menatur max lebar */
+}
+
+.pricing-header{
+	color: #888;
+	letter-spacing: 1px;
+	font-weight: 600;
+	/* untuk mengatur ketebalan font */
+	/* margin: 10px; */
+}
+
+.pricing-price{
+	color: #015ff9;
+	margin: 50px 0 25px;
+}
+
+.pricing-feature-item{
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-size: 12px;
+	line-height: 1.5;
+	/* memeberi jarak antara font atas dan bawah */
+	padding: 15px, 0;
+	border-top: 1px solid white;
 }
