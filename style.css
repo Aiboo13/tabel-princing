@@ -90,7 +90,7 @@ html{
 	/* margin: 10px; */
 }
 
-.pricing-price{
+.pricing-features{
 	color: #015ff9;
 	margin: 50px 0 25px;
 }
@@ -99,8 +99,20 @@ html{
 	font-weight: 600;
 	letter-spacing: 1px;
 	font-size: 12px;
-	line-height: 1.5;
+	line-height: 3;
 	/* memeberi jarak antara font atas dan bawah */
 	padding: 15px, 0;
-	border-top: 1px solid white;
+	border-top: 1px solid rgb(158, 146, 146);
+}
+.pricing-feature-item:last-child{
+	border-bottom: 1px solid #888;
+}
+
+
+
+.pricing-price{
+	color: #016ff9;
+	display: block;
+	font-size: 32px;
+	font-weight: 700;
 }
