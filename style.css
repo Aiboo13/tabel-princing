@@ -108,6 +108,38 @@ html{
 	border-bottom: 1px solid #888;
 }
 
+.pricing-button{
+	border: 1px solid #9dd1ff;
+	border-radius: 10px;
+	color: #348efe;
+	display: inline-block;
+	padding: 15px 35px;
+	text-decoration: none;
+	margin: 25px 0;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+.pricing-button.is-future{
+	background-color: #015ff9;
+	color: white;
+}
+
+.pricing-button:hover,
+.pricing-button:focus{
+	background-color: #5DA7FE;
+	color: white;
+
+
+.pricing-button.is-future:hover,
+.pricing-button.is-future:focus{
+	background-color: #5DA7FE;
+	color: white;
+}
+
+
+
 
 
 .pricing-price{
@@ -116,3 +148,4 @@ html{
 	font-size: 32px;
 	font-weight: 700;
 }
+
